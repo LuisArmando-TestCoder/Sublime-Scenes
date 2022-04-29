@@ -1,8 +1,8 @@
-# Scene-Preset-Gatsby-Template
+# sublime-scenes
 
 ## Get this template
 
-`gatsby new your-app-name https://github.com/LuisArmando-TestCoder/Scene-Preset-Gatsby-Template`
+`gatsby new your-app-name https://github.com/LuisArmando-TestCoder/sublime-scenes`
 
 ## Generate automatic file exports in TypeScript with Python
 

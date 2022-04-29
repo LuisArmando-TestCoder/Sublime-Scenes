@@ -9,7 +9,7 @@ const iconNames = [
 export default selector({
     key: 'Icons',
     get: async () => {
-        const SVGGroup = {}
+        const SVGGroup: {[iconNames: string]: string} = {}
         const SVGResponses = await Promise.all(iconNames.map(iconName => {
             return (async () => {
                 const response = await fetch(`../../icons/${iconName}.svg`)

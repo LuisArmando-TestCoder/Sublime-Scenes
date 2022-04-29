@@ -8,6 +8,7 @@ export default () => {
         scenes={['Default']}
         id='MainScene'
       />
+      <audio src='./audio/Regalo para luis .wav'/>
     </Components.L0.GlobalWrapper>
   )
 }

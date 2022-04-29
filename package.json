@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "sublime-scenes",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Lyrics, music and VFX",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -32,17 +32,10 @@
     "sass": "^1.32.7",
     "scene-preset": "^2.4.5",
     "ssr-window": "^3.0.0",
-    "three": "^0.125.2",
-    "vector": "^0.0.4"
+    "three": "^0.136.0",
+    "victor": "^1.1.0"
   },
   "devDependencies": {
     "prettier": "2.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

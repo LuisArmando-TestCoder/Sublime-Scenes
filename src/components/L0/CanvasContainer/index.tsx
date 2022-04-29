@@ -1,7 +1,7 @@
   
 import React from 'react'
 
-import './style.scss'
+import './styles.scss'
 
 export default ({ id, className = '', reference = null }) => {
     return (
