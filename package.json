@@ -20,7 +20,7 @@
     "gatsby": "^2.26.1",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^3.2.0",
-    "gsap": "^3.6.0",
+    "gsap": "^3.10.4",
     "html2canvas": "^1.0.0-rc.7",
     "qrious": "^4.0.2",
     "react": "^16.12.0",
@@ -30,9 +30,10 @@
     "recoil": "^0.1.2",
     "recoil-outside": "^0.1.1",
     "sass": "^1.32.7",
-    "scene-preset": "^0.1.5",
+    "scene-preset": "^2.4.5",
     "ssr-window": "^3.0.0",
-    "three": "^0.125.2"
+    "three": "^0.125.2",
+    "vector": "^0.0.4"
   },
   "devDependencies": {
     "prettier": "2.2.1"
