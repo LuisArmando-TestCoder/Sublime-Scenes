@@ -17,14 +17,14 @@ executeConditionalPath(
     lambda path: createFile(
         path,
         "import React from 'react'\n" +
-        "import styles from './styles.scss'\n" +
+        "import './styles.scss'\n" +
         "\n" +
         "export default ({\n" +
         "\tclassName = '',\n" +
         "\tchildren\n" +
         "}) => {\n" +
         "\treturn (\n" +
-        "\t\t<div className={`" + componentName.lower() + " ${className} ${styles[\"" + componentName.lower() + "\"]}`}>\n" +
+        "\t\t<div className={`" + componentName.lower() + " ${className}`}>\n" +
         "\t\t\t{children}\n" +
         "\t\t</div>\n" +
         "\t)\n" +
