@@ -9,15 +9,17 @@ export default ({
 }) => {
 	return (
 		<div className={`sharedcanvaswrapper ${className}`}>
-			<div className="sharedcanvaswrapper__shared-content">
+			<section className="sharedcanvaswrapper__section sharedcanvaswrapper__content">
 				{children}
-			</div>
-			<Components.L1.Canvas3D
-				className="sharedcanvaswrapper__shared-canvas"
-				scenes={scenes} id="MainScene" />
-			<button>
-				{/* Shrink the canvas or show it with opening or closing eye */}
-			</button>
+			</section>
+			<section className="sharedcanvaswrapper__section">
+				<Components.L1.Canvas3D
+					className="sharedcanvaswrapper__canvas"
+					scenes={scenes} id={scenes[0]} />
+				<button>
+					{/* Shrink the canvas or show it with opening or closing eye */}
+				</button>
+			</section>
 		</div>
 	)
 }

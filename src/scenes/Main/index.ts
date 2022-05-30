@@ -10,7 +10,7 @@ let sceneEvents: {
 
 function toggleAudio(audio: HTMLAudioElement) {
   return () => {
-    console.log(audio.paused)
+    console.log(audio?.paused)
     audio[audio.paused ? "play" : "pause"]()
   };
 }
@@ -22,7 +22,6 @@ export default (id: string) =>
         sceneEvents = await consulters.getSceneLifeCycle(scene);
 
         const audio = document?.querySelector("audio") as HTMLAudioElement;
-
         events.onKey("p").end(toggleAudio(audio));
 
         const audioProperties = consulters.getAudioProperties(audio);
