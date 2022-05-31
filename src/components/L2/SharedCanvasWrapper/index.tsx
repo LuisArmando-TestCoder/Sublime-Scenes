@@ -15,7 +15,7 @@ export default ({
 			<section className="sharedcanvaswrapper__section">
 				<Components.L1.Canvas3D
 					className="sharedcanvaswrapper__canvas"
-					scenes={scenes} id={scenes[0]} />
+					scenes={scenes} id={scenes.join('-')} />
 				<button>
 					{/* Shrink the canvas or show it with opening or closing eye */}
 				</button>
